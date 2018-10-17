@@ -17,7 +17,7 @@ def speak_to_grandma(saywhat)
     return "I LOVE YOU TOO PUMPKIN!"
   elsif saywhat != saywhat.upcase
     return "HUH?! SPEAK UP, SONNY!"
-  elsif saywhat == saywhat.upcase
+  else
     return "NO, NOT SINCE 1938!"
   end
 end
